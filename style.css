@@ -1,0 +1,256 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.bg {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  background-position: center center;
+}
+
+.opacity {
+  opacity: 0.9;
+}
+
+.navarea {
+  font-family: bevan;
+  font-weight: bold;
+  font-size: 22px;
+
+}
+
+.navarea li a {
+  color: #fff;
+}
+
+
+.transparency {
+  background-color: black;
+  opacity: 0.7;
+}
+
+#person {
+  height: 400px;
+
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#authordetail {
+  font-family: bevan;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 120px;
+  color: grey;
+}
+
+.bgwork {
+  background-color: #FAFAFA;
+}
+
+.contactimg {
+  background-image: url(img/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+
+}
+
+.contact-title {
+  font-family: bevan;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family: bevan;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+  border: solid 3px #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.Portfolio-title {
+  font-family: bevan;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contactarea {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #FAFAFA;
+  height: 200px;
+}
+
+.social-title {
+  font-family: bevan;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 30px;
+  color: black;
+}
+
+.social-icons i {
+  color: black;
+  font-size: 28px;
+  margin-left: 10px;
+  padding-top: 15px;
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+
+.useful {
+  text-transform: uppercase;
+  font-weight: bevan;
+  font-weight:800;
+  font-size: 22px;
+  color: black;
+  padding-top: 30px;
+}
+
+.useful-links {
+  color: black;
+  font-family: bevan;
+  font-weight: bold;
+  display: block;
+  font-size: 18px;
+
+}
+
+ .searchbar input[type=text] {
+   font-size: 17px;
+   margin-top: 30px;
+   border: 2px solid white;
+   float: left;
+   display: inline-block;
+   height: 40px;
+   padding-bottom: 5px;
+   padding-left: 20px;
+   width: 220px;
+   border: 2px;
+
+}
+
+.btn {
+  float: left;
+  text-transform: uppercase;
+  font-family: bevan;
+  font-weight: bold;
+  margin-top: 28px;
+  height: 40px;
+  border-radius: inherit;
+  border-radius: 2px;
+}
+
+#about-info {
+  font-family: bevan;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 80px;
+  padding-left: 22px;
+}
+
+
+.Portfolio-heading {
+  font-family: bevan;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.skill-title {
+  font-family: bevan;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.progress {
+  height: 30px;
+}
+
+.skill-bar {
+  padding-bottom: 40px;
+}
+
+.skill-p {
+  font-family: bevan;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.percentage {
+  font-weight: bold;
+  font-family: bevan;
+  font-size: 18px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contactpage {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contacttext {
+  font-family: bevan;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
