@@ -93,6 +93,11 @@ html,body
   margin-top: 5px;
 }
 
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
 .Portfolio-title {
   font-family: bevan;
   text-align: center;
